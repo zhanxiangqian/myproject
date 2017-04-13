@@ -1,0 +1,57 @@
+﻿生成启动时间为 2017/4/7 11:00:33。
+     1>项目“D:\project\init_setting\materialUi\materialUi\materialUi.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Generate moc_predefs.h
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_fdtdframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_fdtdframe.cpp, Release\moc_fdtdframe.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_goframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_goframe.cpp, Release\moc_goframe.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_materialviewer.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_materialviewer.cpp, Release\moc_materialviewer.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mlfmmframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_mlfmmframe.cpp, Release\moc_mlfmmframe.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_momframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_momframe.cpp, Release\moc_momframe.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_poframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_poframe.cpp, Release\moc_poframe.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_snchart.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_snchart.cpp, Release\moc_snchart.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_solversetting.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_solversetting.cpp, Release\moc_solversetting.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtCharts /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtWidgets /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtGui /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtANGLE /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtXml /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtCore /Irelease /I. /I"C:\Qt\Qt5.8.0\5.8\msvc2013_64\mkspecs\win32-msvc2013" /I.\GeneratedFiles /nologo /W3 /WX- /O2 /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_DEPRECATED_WARNINGS /D QT_NO_DEBUG /D QT_CHARTS_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 fdtdframe.cpp goframe.cpp main.cpp materialviewer.cpp mlfmmframe.cpp momframe.cpp poframe.cpp Release\moc_fdtdframe.cpp Release\moc_goframe.cpp Release\moc_materialviewer.cpp Release\moc_mlfmmframe.cpp Release\moc_momframe.cpp Release\moc_poframe.cpp Release\moc_snchart.cpp Release\moc_solversetting.cpp snchart.cpp solversetting.cpp
+         fdtdframe.cpp
+         goframe.cpp
+         main.cpp
+         materialviewer.cpp
+         mlfmmframe.cpp
+         momframe.cpp
+         poframe.cpp
+         moc_fdtdframe.cpp
+         moc_goframe.cpp
+         moc_materialviewer.cpp
+         moc_mlfmmframe.cpp
+         moc_momframe.cpp
+         moc_poframe.cpp
+         moc_snchart.cpp
+         moc_solversetting.cpp
+         snchart.cpp
+     1>snchart.cpp(78): warning C4100: “event”: 未引用的形参
+         solversetting.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"release\\materialUi.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Qt\Qt5.8.0\5.8\msvc2013_64\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:C:\Qt\Qt5.8.0\5.8\msvc2013_64\lib C:\Qt\Qt5.8.0\5.8\msvc2013_64\lib\qtmain.lib shell32.lib C:\Qt\Qt5.8.0\5.8\msvc2013_64\lib\Qt5Charts.lib C:\Qt\Qt5.8.0\5.8\msvc2013_64\lib\Qt5Widgets.lib C:\Qt\Qt5.8.0\5.8\msvc2013_64\lib\Qt5Gui.lib C:\Qt\Qt5.8.0\5.8\msvc2013_64\lib\Qt5Xml.lib C:\Qt\Qt5.8.0\5.8\msvc2013_64\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"release\materialUi.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Release\fdtdframe.obj
+         x64\Release\goframe.obj
+         x64\Release\main.obj
+         x64\Release\materialviewer.obj
+         x64\Release\mlfmmframe.obj
+         x64\Release\momframe.obj
+         x64\Release\poframe.obj
+         x64\Release\moc_fdtdframe.obj
+         x64\Release\moc_goframe.obj
+         x64\Release\moc_materialviewer.obj
+         x64\Release\moc_mlfmmframe.obj
+         x64\Release\moc_momframe.obj
+         x64\Release\moc_poframe.obj
+         x64\Release\moc_snchart.obj
+         x64\Release\moc_solversetting.obj
+         x64\Release\snchart.obj
+         x64\Release\solversetting.obj
+         materialUi.vcxproj -> D:\project\init_setting\materialUi\materialUi\release\materialUi.exe
+     1>已完成生成项目“D:\project\init_setting\materialUi\materialUi\materialUi.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.73

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "docktest", "docktest\docktest.vcxproj", "{9A04E61C-ECD7-4CDF-B1E9-1C51B7A1C62C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mfctest", "mfctest\mfctest.vcxproj", "{9AC62F53-731B-4B30-96F9-B79CE5E874D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A04E61C-ECD7-4CDF-B1E9-1C51B7A1C62C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A04E61C-ECD7-4CDF-B1E9-1C51B7A1C62C}.Debug|Win32.Build.0 = Debug|Win32
+		{9A04E61C-ECD7-4CDF-B1E9-1C51B7A1C62C}.Release|Win32.ActiveCfg = Release|Win32
+		{9A04E61C-ECD7-4CDF-B1E9-1C51B7A1C62C}.Release|Win32.Build.0 = Release|Win32
+		{9AC62F53-731B-4B30-96F9-B79CE5E874D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9AC62F53-731B-4B30-96F9-B79CE5E874D5}.Debug|Win32.Build.0 = Debug|Win32
+		{9AC62F53-731B-4B30-96F9-B79CE5E874D5}.Release|Win32.ActiveCfg = Release|Win32
+		{9AC62F53-731B-4B30-96F9-B79CE5E874D5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

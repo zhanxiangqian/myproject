@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mat name="default">
+    <group name="Physical Properties" >
+        <item name="P">
+            <desc>Density</desc>
+            <value>1000</value>
+            <unit>kg m^-3</unit>
+        </item>
+        <type name="Density" type="element"> 
+            <item name="V">
+                <desc>Poisson’s Ratio</desc>
+                <value>0.3</value>
+            </item>
+            <item name="P">
+                <desc>Relative pemittivity</desc>
+                <value>1</value>
+                <unit></unit>
+            </item>
+            <item name="E">
+                <desc>Dielectric loss tangent</desc>
+                <value>0</value>
+                <unit></unit>
+            </item>
+            <item name="V">
+                <desc>Conductivity (s/m)</desc>
+                <value>0</value>
+            </item>
+        </type>
+    </group>
+
+
+</mat>

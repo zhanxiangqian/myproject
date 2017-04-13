@@ -1,0 +1,19 @@
+﻿生成启动时间为 2017/4/7 17:56:43。
+     1>项目“D:\project\materialUi\materialUi\materialUi.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Generate moc_predefs.h
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_fdtdframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_fdtdframe.cpp, Release\moc_fdtdframe.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_goframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_goframe.cpp, Release\moc_goframe.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_materialviewer.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_materialviewer.cpp, Release\moc_materialviewer.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mlfmmframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_mlfmmframe.cpp, Release\moc_mlfmmframe.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_momframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_momframe.cpp, Release\moc_momframe.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_poframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_poframe.cpp, Release\moc_poframe.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_snchart.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_snchart.cpp, Release\moc_snchart.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_solversetting.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_solversetting.cpp, Release\moc_solversetting.cpp.
+       Link:
+         materialUi.vcxproj -> D:\project\materialUi\materialUi\debug\materialUi.exe
+     1>已完成生成项目“D:\project\materialUi\materialUi\materialUi.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.10

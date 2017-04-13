@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="docktest">
+    <file>Resources/gl_view_fitall.png</file>
+    <file>Resources/gl_view_fitall.png</file>
+  </qresource>
+</RCC>
