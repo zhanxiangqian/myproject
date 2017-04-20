@@ -1,0 +1,28 @@
+﻿生成启动时间为 2017/4/19 13:44:20。
+     1>项目“D:\project\init_setting\Material_Assign\Material_Assign.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing material_assign.h...
+         Uic'ing material_assign.ui...
+         Rcc'ing material_assign.qrc...
+     1>RCC : warning : No resources in 'D:\project\init_setting\Material_Assign\material_assign.qrc'.
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_material_assign.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_material_assign.cpp, GeneratedFiles\Release\moc_material_assign.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtCore /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtGui /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtWidgets /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtXml /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_material_assign.cpp main.cpp material_assign.cpp
+         moc_material_assign.cpp
+         main.cpp
+         material_assign.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtCore /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtGui /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtWidgets /IC:\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtXml /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_material_assign.cpp
+         qrc_material_assign.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\init_setting\init_setting\x64\Debug\\Material_Assign.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.8.0\5.8\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Xmld.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\project\init_setting\init_setting\x64\Debug\Material_Assign.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\init_setting\init_setting\x64\Debug\Material_Assign.lib" /MACHINE:X64 x64\Debug\moc_material_assign.obj
+         x64\Debug\qrc_material_assign.obj
+         x64\Debug\main.obj
+         x64\Debug\material_assign.obj
+         Material_Assign.vcxproj -> D:\project\init_setting\init_setting\x64\Debug\Material_Assign.exe
+     1>已完成生成项目“D:\project\init_setting\Material_Assign\Material_Assign.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.73

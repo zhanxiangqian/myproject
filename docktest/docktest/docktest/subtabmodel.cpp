@@ -2,6 +2,7 @@
 #include <QColor>
 #include <QBrush>
 #include <QPixmap>
+#include <QPainter>
 SubTabModel::SubTabModel(QObject *parent)
 	: QAbstractTableModel(parent)
 {
@@ -50,8 +51,14 @@ QVariant SubTabModel::data(const QModelIndex &index, int role /* = Qt::DisplayRo
 	
 	if (role == Qt::DecorationRole)
 	{
-		QPixmap *p = new QPixmap(QString(":/docktest/Resources/gl_view_fitall.png"));
-		res = QVariant(*p);
+		QPixmap *p = new QPixmap(32,32);
+		p->fill();
+		QRect rct = p->rect();
+		QPainter *paint = new QPainter(p);
+		paint->drawText(rct, Qt::AlignCenter, tr("Qt:"));
+
+ 		res = QVariant(*p);
+//		res = QVariant("Pressure");
 	}
 	return  res;
 	//return  NULL;

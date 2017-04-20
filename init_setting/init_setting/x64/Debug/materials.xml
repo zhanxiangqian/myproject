@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<My_Material>
+  <Undefined Thermal_Conductivity="2" Density="4" Emissivity="3" Specific_Heat="5" Reflectivity="1">Undefined</Undefined>
+  <s Thermal_Conductivity="7" Density="9" Emissivity="8" Specific_Heat="10" Reflectivity="6">s</s>
+  <aaa Thermal_Conductivity="80.2" Density="7874" Emissivity="0.5" Specific_Heat="440" Reflectivity="0.5">aaa</aaa>
+</My_Material>
